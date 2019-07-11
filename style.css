@@ -248,6 +248,7 @@ nav a:hover {
   margin: 0rem 16%;
   position: relative;
   top: -9rem;
+  z-index: 1;
 }
 
 .vertical-line {
@@ -263,7 +264,7 @@ nav a:hover {
 
 .get-to-know-me {
   position: relative;
-  z-index: -1;
+  z-index: 0;
   bottom: 26rem;
   padding-top: 30rem
 }
@@ -275,8 +276,22 @@ nav a:hover {
   margin: 2rem;
   margin-bottom: 3rem;
   padding: 1.5rem;
-  border: 1px solid #6D768D;
   height: 12rem;
+}
+
+.front {
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #6D768D;
+}
+
+.back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #6D768D;
 }
 
 /*----------------'My work' box----------------*/
