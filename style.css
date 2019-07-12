@@ -159,7 +159,12 @@ nav a:hover {
 
 .nav-logo {
   width: 50vw;
-  transform: translate(50%, 7rem);
+  max-width: 40rem;
+  min-width: 30rem;
+  transform: translate(0, 7rem);
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
 .bg-image {
@@ -334,19 +339,18 @@ nav a:hover {
   top: 2vh;
   right: 2vh;
   z-index: 9;
-  padding: 8px;
+  padding: 12px;
 }
 /*this is where you can change the color of the buttons*/
 .burger-button span{
   width: 40px;
-  border: 2px solid black;
-  background-color: black;
+  border: 1.5px solid #6D768D;
   display: block;
-  border-radius: 22px;
-  transition: 2s;
+  border-radius: 20px;
+  transition: 1s;
 }
 .burger-button.active span{
-  border-color: green;
+  border-color: #6D768D;
   background-color:#383;
 }
 
@@ -364,7 +368,7 @@ nav a:hover {
 /* make sure this has the same top as the burger button has padding*/
 .burger-button.active .burger-top{
   position: absolute;
-  top: 8px;
+  top: 12px;
   transform: rotateZ(45deg);
 }
 
@@ -378,7 +382,7 @@ nav a:hover {
 
 .burger-button.active .burger-bottom{
   position: absolute;
-  bottom: 8px;
+  bottom: 12px;
   transform: rotateZ(-45deg);
 }
 
@@ -400,18 +404,12 @@ nav a:hover {
 }
 .burger-menu.active{
   top:0;
-  bottom:0;
+  bottom:70vh;
 }
 .burger-menu a {
-  text-decoration: none;
-  font-size: 20px;
-  font-weight: 300;
-  color: #C3BFBC;
-  font-family: 'Alegreya Sans SC', sans-serif;
-  display:block;
-  padding:5px 15px;
   text-align:center;
-  white-space:nowrap;
+  transition: 0s;
+  filter: blur(0px);
 }
 
 /*----------------'My work' box----------------*/
@@ -512,6 +510,12 @@ nav a:hover {
 
   .mobile-hide {
     display: none;
+  }
+
+  .nav-logo {
+    width: 75vw;
+    max-width: 40rem;
+    min-width: 15rem;
   }
 
 }
