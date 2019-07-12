@@ -78,6 +78,25 @@ form {
   transform: translate(-50%);
 }
 
+.button.dark-bg {
+  border: 1px solid white;
+}
+
+.button.dark-bg:hover {
+  border: 1px solid #6D768D;
+  color: #6D768D;
+  background-color: white;
+}
+
+.button.light-bg {
+  border: 1px solid #6D768D;
+}
+
+.button.light-bg:hover {
+  border: 1px solid white;
+  color: white;
+  background-color: #6D768D;
+}
 /* ----------------Typography----------------*/
 
 nav a {
@@ -140,7 +159,7 @@ nav a:hover {
 
 .nav-logo {
   width: 50vw;
-  transform: translate(50%, 9rem);
+  transform: translate(50%, 7rem);
 }
 
 .bg-image {
@@ -239,7 +258,7 @@ nav a:hover {
 
 .hello-bg-image {
   background-image: url(images/above-the-fold-3.jpg);
-  min-height: 900px;
+  min-height: 800px;
   background-position: top;
 }
 
@@ -256,16 +275,18 @@ nav a:hover {
   left: 0;
   right: 0;
   margin: auto;
-  height: 4rem;
+  height: 6rem;
   width: 1px;
   border: 0.5px solid black;
-  bottom: -13rem;
+  bottom: -15rem;
 }
+
 
 .get-to-know-me {
   position: relative;
   z-index: 0;
-  padding-top: 30rem
+  padding-top: 4rem;
+  margin-top: 2rem;
 }
 
 .card {
@@ -304,8 +325,7 @@ nav a:hover {
 }
 
 .my-work-section {
-  position: relative;
-  top: 5rem;
+
 }
 
 /*----------------'My work' box----------------*/
