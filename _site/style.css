@@ -259,6 +259,12 @@ nav a:hover {
   position: relative;
 }
 
+.bottom-edge-shadow {
+	-webkit-box-shadow: 0 8px 6px -6px rgba(60,60,60,0.2);
+	-moz-box-shadow: 0 8px 6px -6px rgba(60,60,60,0.2);
+	box-shadow: 0 8px 6px -6px rgba(60,60,60,0.2);
+}
+
 /* -----------------Sections-----------------*/
 
 .hello-bg-image {
@@ -340,6 +346,7 @@ nav a:hover {
   right: 2vh;
   z-index: 9;
   padding: 12px;
+  cursor: pointer;
 }
 /*this is where you can change the color of the buttons*/
 .burger-button span{
@@ -410,6 +417,15 @@ nav a:hover {
   text-align:center;
   transition: 0s;
   filter: blur(0px);
+}
+
+.hamburger-background {
+  position: fixed;
+  top: 0;
+  height: 3.4rem;
+  background-color: white;
+  z-index: 0;
+  width: 100%;
 }
 
 /*----------------'My work' box----------------*/
@@ -530,6 +546,7 @@ nav a:hover {
     padding: 5rem 0rem 2rem 0rem;
     margin-bottom: 3rem;
   }
+
 
 }
 
