@@ -158,7 +158,6 @@ nav a:hover {
   text-align: center;
   font-size: 1.4rem;
   padding: 2rem 2rem 0rem 2rem;
-  line-height: 1rem;
   color: #6D768D;
 }
 
@@ -166,6 +165,16 @@ nav a:hover {
   text-align: center;
   font-size: 1.2rem;
   font-weight: 300;
+}
+
+.back p {
+  font-size: 1rem;
+}
+
+.card a {
+  text-decoration: underline;
+  color: #6D768D;
+
 }
 
 .hoverbox-text h2 {
@@ -348,10 +357,10 @@ nav a:hover {
   justify-content: center;
   border: 1px solid #6D768D;
   padding: 0.5rem;
-  font-size: 0.2rem;
 }
 
 .back:hover {
+  background-color: white;
   cursor: pointer;
 }
 
