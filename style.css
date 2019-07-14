@@ -540,7 +540,7 @@ nav a:hover {
   }
 
   .hello-bg-image {
-    min-height: 100vh;
+    min-height: 85vh;
   }
 
   .hello-section p {
@@ -548,23 +548,30 @@ nav a:hover {
     margin-bottom: 3rem;
   }
 
-  .card {
+  /* .card {
     margin: 1rem;
-  }
+  } */
 
 
 }
-
-/*Styles for elements at medium view (md on gridlex)*/
-
-@media only screen and (max-width: 1024px) {
+ /* for the 'get to know me' cards to go from 5 to 4 */
+@media only screen and (max-width: 1185px) {
 
   .tablet-hide {
     display: none;
   }
 
   .card {
-    margin: 1rem;
+    margin: 2rem 0.5rem 3rem 0.5rem;
+  }
+
+}
+
+/* for the 'get to know me' cards to go from 3 in a row to 3 separate rows */
+@media only screen and (max-width: 595px) {
+
+  .card {
+    margin: 2rem 5rem;
   }
 
 }
