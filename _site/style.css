@@ -59,6 +59,10 @@ form input, textarea {
   margin-bottom: 1rem;
 }
 
+form textarea {
+  margin-bottom: 0;
+}
+
 form {
   margin-top: 4vw;
 }
@@ -76,6 +80,13 @@ form {
   position: relative;
   left: 50%;
   transform: translate(-50%);
+}
+
+form .button {
+  max-width: 12rem;
+  cursor: pointer;
+  border-radius: 0;
+  padding: 0.7rem
 }
 
 .button.dark-bg {
