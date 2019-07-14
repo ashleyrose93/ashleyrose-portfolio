@@ -146,12 +146,20 @@ nav a:hover {
   margin-bottom: 3rem;
 }
 
-.get-to-know-me-heading {
+.get-to-know-me-headingbox {
   border: 1px solid black;
   width: 18rem;
   left: 0;
   right: 0;
   margin: auto;
+}
+
+.get-to-know-me-subheading {
+  text-align: center;
+  font-size: 1.4rem;
+  padding: 2rem 2rem 0rem 2rem;
+  line-height: 1rem;
+  color: #6D768D;
 }
 
 .card p {
@@ -559,9 +567,25 @@ nav a:hover {
     margin-bottom: 3rem;
   }
 
-  /* .card {
-    margin: 1rem;
-  } */
+  .background-script {
+    height: 10rem;
+    transform: translate(-50%, 28%);
+  }
+
+  #reachout {
+    height: 8rem;
+    left: 55%
+  }
+
+  .image-half {
+    height: 20rem;
+  }
+
+  .lets-connect-pic {
+    width: 15rem;
+    height: 15rem;
+    background-image: url(images/ashley-portrait-hover.jpg);
+  }
 
 
 }
