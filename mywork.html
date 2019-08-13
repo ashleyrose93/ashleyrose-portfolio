@@ -1,0 +1,45 @@
+---
+layout: default
+page-title-image: mywork-bg.jpg
+page-title: My work
+light-or-dark: light
+
+work-preview:
+  - image: mywork-ixup1.jpg
+    title: IXUP
+  - image: mywork-xceptional1.jpg
+    title: Xceptional
+  - image: mywork-thh1.jpg
+    title: The Happiness Hunter
+    link: thehappinesshunter.html
+  - image: mywork-hsm1.jpg
+    title: Hello Sunday Morning
+  - image: mywork-goy1.jpg
+    title: Good On You
+  - image: mywork-empowerproject1.jpg
+    title: Empower Project
+  - image: mywork-mymotivation1.jpg
+    title: My Motivation
+  - image: mywork-ethicalplan1.jpg
+    title: Ethical Strategic Plan
+---
+{% include secondheader.html %}
+
+<div class="grid my-work-previews-mainpage">
+  <!-- - - - - IMAGE 1 - - - - - -->
+  {% for work-preview in page.work-preview %}
+  <div class="col-6_sm-12 my-work hoverbox image-half" style="background-image: url('images/{{work-preview.image}}')">
+    <div class="hoverbox-top-layer div-link">
+      <a href='javascript:void(0)' onclick='window.location = "/{{work-preview.link}}"' class="div-link">
+        <div class="hoverbox-text div-link">
+          <div>
+            <h2> {{work-preview.title}} </h2>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+{% include contact-me.html %}

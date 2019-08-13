@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<!-- - - - - - - Head - - - - - - - -->
+<head>
+  <meta charset="utf-8">
+  <title>Ashley Rose Socially Good Media and Design</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Link for gridlex-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
+  <!--Link for google font - Quicksand-->
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:300,700&display=swap" rel="stylesheet">
+  <!--Link for font awesome icons-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <!--Link for CSS (always have last after other linked libraries for specificity)-->
+  <link href="style.css" rel="stylesheet">
+</head>
+<!-- - - - - Close Head - - - - - - -->
+<!-- - - - - - Body - - - - - - - - -->
+<body>
+
+<!-- - - - - - Header - - - - - - - -->
+  <header class="grid second-header">
+  <a href="/index.html" class="second-nav-logo"><img src="images/ARS_Logo_Plain_Black.png" class="padding-2"></a>
+    <nav class="col-12-middle center mobile-hide">
+      <a href="#"> About </a>
+      <a href="/mywork.html"> Work </a>
+      <a href="#"> Contact </a>
+    </nav>
+<!-- -Hamburger Menu by Deswin aka Dan- -->
+    <div class="hamburger-background mobile-show bottom-edge-shadow">
+    </div>
+    <nav class="mobile-show">
+      <div class="burger-button">
+          <span class="burger-top"></span>
+          <span class="burger-middle"></span>
+          <span class="burger-bottom"></span>
+      </div>
+      <div class="burger-menu">
+        <a href="#"> About </a>
+        <a href="#"> Work </a>
+        <a href="#"> Contact </a>
+      </div>
+    </nav>
+<!-- - - - - End Hamburger menu- - - - -->
+  </header>
+<!-- - - - - Close Header - - - - - -->
+<!-- - - - - Begin Page Title- - - - -->
+  <section class="bg-image page-title" style="background-image: url(images/mywork-thh1.jpg)">
+    <div class="page-title-text">
+      <h1 class="dark-bg"> The Happiness Hunter </h1>
+    </div>
+  </section>
+<!-- - - - - - End Page Title- - - - -->
+
+
+
+<section class="mid-bg">
+  <h2> Let's connect </h2>
+  <div class="lets-connect-pic bg-image">
+      <a href='javascript:void(0)' onclick='window.location = "https://www.linkedin.com/in/ashleyboyd93/"' class="div-link circle-div"></a>
+  </div>
+  <p class="center padding-2"> Copyright © 2019 | Design + development Ashley Boyd </p>
+</section>
+
+
+<!--- - - - Link JS & JQuery- - - - -->
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+<script>
+$(function($) {
+  $("#card-1").flip({
+    axis: 'y',
+    trigger: 'click'
+  });
+  $("#card-2").flip({
+    axis: 'y',
+    trigger: 'click'
+  });
+  $("#card-3").flip({
+    axis: 'y',
+    trigger: 'click'
+  });
+  $("#card-4").flip({
+    axis: 'y',
+    trigger: 'click'
+  });
+  $("#card-5").flip({
+    axis: 'y',
+    trigger: 'click'
+  });
+});
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+<script src="scripts.js"></script>
+
+</body>
+<!-- - - - - Close Body - - - - - - -->
