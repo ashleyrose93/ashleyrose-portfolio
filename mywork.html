@@ -26,7 +26,7 @@ work-preview:
 {% include secondheader.html %}
 
 <div class="grid my-work-previews-mainpage">
-  <!-- - - - - IMAGE 1 - - - - - -->
+  <!-- - - - - Begin my work preview images - - - - - -->
   {% for work-preview in page.work-preview %}
   <div class="col-6_sm-12 my-work hoverbox image-half" style="background-image: url('images/{{work-preview.image}}')">
     <div class="hoverbox-top-layer div-link">
@@ -41,5 +41,6 @@ work-preview:
   </div>
   {% endfor %}
 </div>
+<!-- - - - - End my work preview images - - - - - -->
 
 {% include contact-me.html %}
