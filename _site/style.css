@@ -129,6 +129,7 @@ nav a {
 
 nav a:hover {
   filter: blur(0px);
+  color: #6D768D;
 }
 
 .hello-heading {
@@ -194,6 +195,11 @@ nav a:hover {
   text-decoration: none;
   color: white;
   transition: 1s;
+}
+
+.work-overview-heading {
+  text-align: left;
+  padding: 0 0 1rem 0;
 }
 
 /* ------------------Images------------------*/
@@ -335,14 +341,14 @@ nav a:hover {
 }
 
 .second-header {
-  padding-bottom: 3rem;
+  padding-top: 3rem;
 }
 
 .page-title {
   height: 350px;
 }
 
-.vertical-line {
+.vertical-line-1 {
   position: absolute;
   left: 0;
   right: 0;
@@ -351,6 +357,23 @@ nav a:hover {
   width: 1px;
   border: 0.5px solid black;
   bottom: -15rem;
+}
+
+.vertical-line-2 {
+  position: absolute;
+  left: 0;
+  width: 50%;
+  border: 0.5px solid black;
+  top: 47rem;
+}
+
+.vertical-line-3 {
+  position: relative;
+  right: 0;
+  left: 50%;
+  width: 50%;
+  border: 0.5px solid black;
+  top: -7rem;
 }
 
 
@@ -402,6 +425,27 @@ nav a:hover {
   margin: auto;
   margin-top: 4.5rem;
   margin-bottom: 4.5rem;
+}
+
+.overview {
+  position: relative;
+  border: 1px solid #6D768D;
+  background-color: white;
+  width: 60vw;
+  margin: auto;
+  z-index: 2;
+  margin-top: 3rem;
+  padding-bottom: 4rem;
+
+}
+
+.role {
+  position: relative;
+  width: 60vw;
+  left: 25%;
+  top: -2rem;
+  z-index: 3;
+
 }
 
 /*----------------Hamburger Menu----------------*/
