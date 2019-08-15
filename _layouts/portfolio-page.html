@@ -1,0 +1,12 @@
+---
+layout: default
+---
+{% include secondheader.html %}
+
+{% include work-overview.html %}
+
+{% for mockup in page.mockup %}
+  <img src="images/{{mockup.image}}" class="mockup">
+{% endfor %}
+
+{% include back-to-my-work.html %}

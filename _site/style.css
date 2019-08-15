@@ -132,6 +132,10 @@ nav a:hover {
   color: #6D768D;
 }
 
+.home {
+  color: #6D768D;
+}
+
 .hello-heading {
   width: 15rem;
   position: absolute;
@@ -263,6 +267,14 @@ nav a:hover {
 .lets-connect-pic:hover {
   background-image: url(images/ashley-portrait-hover.jpg);
 }
+
+.mockup {
+  width: 70vw;
+  padding-bottom: 2rem;
+  display: block;
+  margin: auto;
+}
+
 /* -------------Utility Classes--------------*/
 
 .dark-bg {
@@ -345,7 +357,8 @@ nav a:hover {
 }
 
 .page-title {
-  height: 350px;
+  height: 400px;
+  margin-top: 3rem;
 }
 
 .vertical-line-1 {
@@ -360,11 +373,11 @@ nav a:hover {
 }
 
 .vertical-line-2 {
-  position: absolute;
+  position: relative;
   left: 0;
   width: 50%;
   border: 0.5px solid black;
-  top: 47rem;
+  top: 10rem;
 }
 
 .vertical-line-3 {
