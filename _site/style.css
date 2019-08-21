@@ -12,6 +12,7 @@ img {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 [class*=col-], [class*=col_], [class~=col] {
@@ -51,6 +52,10 @@ h2 {
 
 p {
   line-height: 1.7rem;
+}
+
+p a {
+  text-decoration: underline;
 }
 
 form input, textarea {
@@ -334,7 +339,7 @@ nav a:hover {
 /* -----------------Sections-----------------*/
 
 .hello-bg-image {
-  background-image: url(images/above-the-fold-3.jpg);
+  background-image: url(images/above-the-fold-2.jpg);
   min-height: 800px;
   background-position: top;
 }
