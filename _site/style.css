@@ -216,13 +216,11 @@ nav a:hover {
 /* ------------------Images------------------*/
 
 .nav-logo {
-  width: 50vw;
-  max-width: 40rem;
-  min-width: 30rem;
   transform: translate(0, 7rem);
   left: 0;
   right: 0;
   margin: auto;
+  max-height: 20rem;
 }
 
 .second-nav-logo {
