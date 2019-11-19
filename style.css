@@ -660,7 +660,6 @@ nav a:hover {
     width: 75vw;
     max-width: 40rem;
     min-width: 15rem;
-    transform: none;
   }
 
   .hello-heading {
